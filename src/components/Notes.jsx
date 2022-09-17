@@ -2,9 +2,9 @@ import React from 'react'
 
 function Notes() {
   return (
-    <div>
-      <p>Notes</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus vel dolorum nobis explicabo sed dolore blanditiis reiciendis dolores nostrum, veritatis quod optio maiores ad natus incidunt. Fugiat commodi nobis sed.</p>
+    <div className='note'>
+      <h1>Note Title</h1>
+      <p>This is a paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quia explicabo, voluptates reiciendis nesciunt cumque quam placeat laboriosam assumenda debitis, recusandae, repellat id enim nisi veritatis minus provident. Error, qui.</p>
     </div>
   )
 }
