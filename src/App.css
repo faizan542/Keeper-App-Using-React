@@ -1,7 +1,12 @@
+body{
+  background-color: #eee;
+}
 /* Header Styking Start */
 .header{
-  background-color: #dafa25;
+  background-color: #f5ba13;
   color: #fff;
+  box-shadow: 0 2px 5px #aaa;
+  padding: 10px 32px;
 }
 
 .heading{
@@ -10,7 +15,29 @@
 /* Header Styking End */
 
 /* Notes Styling Start */
+.note{
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 16px;
+  width: 240px;
+  float: left;
+}
 
+.note h1{
+  font-family: 'Righteous', cursive;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p{
+  font-family: 'Parisienne', cursive;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 /* Notes Styling End */
 
 
@@ -18,7 +45,7 @@
 .footer{
   width: 100%;
   height: 3rem;
-  background-color: #0a183d;
+  background-color: #f5ba13;
   color: #fff;
   margin-top: auto;
 }
@@ -26,6 +53,7 @@
 .footer p{
   font-size: 1rem;
   text-align: center;
+  font-family: 'Righteous', cursive;
 }
 
 .page-container{
