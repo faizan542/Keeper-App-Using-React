@@ -1,0 +1,36 @@
+/* Header Styking Start */
+.header{
+  background-color: #dafa25;
+  color: #fff;
+}
+
+.heading{
+  font-family: 'Lobster', cursive;
+}
+/* Header Styking End */
+
+/* Notes Styling Start */
+
+/* Notes Styling End */
+
+
+/* Footer Styling Start */
+.footer{
+  width: 100%;
+  height: 3rem;
+  background-color: #0a183d;
+  color: #fff;
+  margin-top: auto;
+}
+
+.footer p{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* Footer Styling End */
